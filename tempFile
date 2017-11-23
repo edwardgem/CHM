@@ -1,0 +1,14 @@
+#cr.properties for RemoteAccess
+
+<PRM_HOST>http://prayer/PRM</PRM_HOST>
+
+<USER>user0@xxx.com</USER>
+<PASSWORD>user0</PASSWORD>
+
+<PROJECT>30013</PROJECT>
+
+<TASK>30025</TASK>
+
+<DOWNLOAD_PATH>C:/test/download</DOWNLOAD_PATH>
+
+<UPLOAD_OPTION>UPLOAD_TO_PROJECT</UPLOAD_OPTION>

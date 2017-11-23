@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="MeetWE">
+    <Require feature="opensocial-0.7" />
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[
+      <script  language="JavaScript">
+      location = "http://www.meetwe.com/meeting/cal.jsp";
+      </script>
+    ]]>
+  </Content>
+</Module>
