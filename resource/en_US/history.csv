@@ -1,0 +1,48 @@
+# history
+# $Creator is the person who creates the history record
+# History records
+
+
+# 1001-1999 town
+HIST.1101,"$Creator creates a company [$TownName] ($TownID)"
+
+
+# 2001-2999 user
+HIST.2001,"New user [$UserName] ($UserID) created"
+
+
+# 3001-3999 project
+HIST.3101,"$Creator creates project [$ProjectName] ($ProjectID)"
+HIST.3102,"$Creator deletes project [$ProjectName] ($ProjectID)"
+HIST.3110,"$Creator moves project [$ProjectName] ($ProjectID) to OPEN"
+HIST.3111,"$Creator puts project [$ProjectName] ($ProjectID) ON-HOLD"
+HIST.3112,"$Creator CANCELS project [$ProjectName] ($ProjectID)"
+HIST.3113,"$Creator moves project [$ProjectName] ($ProjectID) to COMPLETE"
+HIST.3114,"$Creator CLOSES project [$ProjectName] ($ProjectID)"
+HIST.3115,"Project [$ProjectName] ($ProjectID) has passed the deadline and is now LATE"
+HIST.3116,"$Creator adds [$UserName] ($UserID) to the project team of [$ProjectName] ($ProjectID)"
+HIST.3117,"$Creator moves project [$ProjectName] ($ProjectID) to re-OPEN"
+
+
+# 4001-4999 task
+HIST.4101,"$Creator starts task [$TaskName] ($TaskID) moves to OPEN"
+HIST.4102,"All conditions are fulfilled, $Application automatically starts task [$TaskName] ($TaskID)"
+HIST.4103,"$Creator completes task [$TaskName] ($TaskID)"
+HIST.4104,"Task [$TaskName] ($TaskID) has been moved to LATE"
+HIST.4105,"$Creator puts task [$TaskName] ($TaskID) ON-HOLD"
+HIST.4106,"$Creator CANCELS task [$TaskName] ($TaskID)"
+
+
+# 5001-5999 meeting
+HIST.5101,"$Creator schedules a meeting [$MeetingName] ($MeetingID)"
+
+
+# 6001-6999 case (bug)
+
+
+# 7001-7999 attachment
+HIST.7101,"$Creator posts a file [$AttachmentName] ($AttachmentID)"
+HIST.7102,"$Creator deletes a file [$AttachmentName] ($AttachmentID)"
+HIST.7103,"$Creator opens a file [$AttachmentName] ($AttachmentID)"
+HIST.7104,"$Creator moves a file [$AttachmentName] ($AttachmentID)"
+HIST.7105,"$Creator creates a link to a file [$AttachmentName] ($AttachmentID)"

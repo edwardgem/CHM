@@ -1,0 +1,12 @@
+# message
+
+
+# error
+MSG.1001,"Access deny.  Please try again and if problem persists, contact your Administrator."
+MSG.5001,"You have reached the maximum no. of projects based on your Service Agreement. Click CONTINUE to upgrade your Service Level, or contact your account manager for help."
+MSG.5002,"This company $var0 is not found in the database. Please contact Administration to fix the system configuration."
+MSG.5003,"You have reached the maximum no. of users based on your Service Agreement. Click CONTINUE to upgrade your Service Level, or contact your account manager for help."
+MSG.5004,"Posting to this project is not allowed. Please contact the project coordinator if you have any questions."
+
+# success
+MSG.10101,"Copy planned dates to original dates completed successfully."

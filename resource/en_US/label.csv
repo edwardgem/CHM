@@ -1,0 +1,73 @@
+# label,
+# for buttons and links,
+,
+,
+# menu tab,
+Home,Home
+Project,Projects
+File,Files
+Event,Meetings
+Tracker,Tracker
+Network,Networking
+MyAccount,My Account
+Logout,Sign-out
+,
+# sub-menu: Home,
+SubHome,Classic Home
+Dashboard,Dashboard
+ChatRoom,Chat Room
+Search,Search
+eLogBook,eLogBook
+NewUser,New User
+NewProject,New Project
+NewCompany,New Company
+MyPage,My Blog
+MyNote,My Notes
+MyLetter,My Letters
+,
+# sub-menu: Project,
+Top,Top
+FileRepository,File Repository
+ProjectPlan,Project Plan
+ProjectSummary,Project Summary
+ProjectProfile,Project Profile
+ChangeProjPlan,Change Project Plan
+ProjectReport,Review
+Worktray,Worktray
+TaskManagement,Task Management
+Todo,To-do List
+,
+# sub-menu: Event/Meeting,
+Calendar,Calendar
+SearchMeeting,Search Meeting
+NewMeeting,New Meeting
+NewEvent,New Event
+NewQuestion,New Questionnaire
+MeetingIssue,Meeting Issue
+ProjectMeeting,Project Meeting
+,
+# sub-menu: Tracker,
+ChangeSummary,Change Request Summary
+NewChange,New Change Request
+CRAnalysis,CR Analysis
+ProjectBlog,Project Blog
+TaskBlog,Task Blog
+ChangeBlog,CR Blog
+ActionBlog,Action Item Blog
+MeetingBlog,Meeting Blog
+,
+# sub-menu: Networking,
+Contacts,Contacts
+Circle,My Circles
+NewCircle,New Circle
+SearchFriend,Search Friends
+InviteFriend,Invite New Friends
+Guest,Contacts & Guests
+,
+# sub-menu: Others,
+ProjectAction,Project Action & Decision
+MeetingAction,Meeting Action & Decision
+UserAccount,User Account
+ChangeFolderPlan,Change Folder Layout
+Admin,Admin
+DistList,Distribution List

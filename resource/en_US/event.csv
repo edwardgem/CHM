@@ -1,0 +1,105 @@
+# Events
+# parameters can be creator, createdDate, var1, var2 and var3.
+
+# Meeting event
+EVENT.101,"$Creator scheduled a $var1 meeting",,
+EVENT.102,"$Creator started the $var1 meeting",,
+EVENT.103,"$Creator joined the $var1 meeting",,
+EVENT.104,"$var1 adjourned the $var2 meeting",,
+EVENT.105,"$Creator updated the $var1 meeting",,
+EVENT.106,"$Creator reviewed the $var1 meeting",,
+EVENT.107,"$Creator removed the $var1 meeting",,
+EVENT.108,"$Creator created a $var1 meeting from a chat session",,
+
+# Blog event
+EVENT.111,"your friend $Creator posted a blog on a $var1 meeting $var2",,
+EVENT.112,"your friend $Creator wrote a reply to a $var1 meeting blog",,
+EVENT.113,"your friend $Creator posted a blog on your page $var1",,
+EVENT.114,"$Creator posted a blog on $var1's page $var2",,
+EVENT.115,"$Creator posted a response to your blog $var1",,
+EVENT.116,"$Creator posted a blog on the $var1 page $var2",,
+EVENT.117,"$Creator posted a blog on his/her own page $var1",,
+EVENT.118,"$Creator posted a blog on $var1 project page $var2",,
+EVENT.119,"$Creator posted a response to your blog on $var1 project $var2",,
+EVENT.120,"$Creator posted a blog on the service request $var1 $var2",,
+EVENT.121,"$Creator posted a response to a blog on the service request $var1 $var2",,
+EVENT.1111,"your friend $Creator posted a blog on a event/survey $var1",,
+EVENT.1112,"your friend $Creator wrote a reply to a event/survey blog",,
+EVENT.1113,"$Creator posted a blog on the action item of the $var1 project $var2",,
+EVENT.1114,"$Creator posted a response to your blog on the action item of the $var1 project $var2",,
+
+# Friend event
+EVENT.2121,"$Creator has become your friend",,
+EVENT.2122,"$Creator has become $var1's friend",,
+EVENT.2123,"your guest $Creator has accepted your invitation and become your friend",,
+
+# Circle event
+EVENT.2131,"a new circle $var1 has been added",,
+EVENT.2132,"your friend $Creator has joined the $var1 circle",,
+EVENT.2133,"$Creator has added you to the $var1 circle",,
+
+# User event
+EVENT.141,"your friend $Creator signed in",,
+EVENT.142,"your friend $Creator signed out",,
+EVENT.151,"your friend $Creator posted a note to you. $var1",,
+EVENT.152,"your friend $Creator says $var1 to you",,
+
+EVENT.161,"your friend $Creator posted a thought $var1",,
+EVENT.162,"$Creator says $var1",,
+
+# Seasonal event
+EVENT.171,"your friend $Creator has sent you a $var1",,
+
+# Chat event
+EVENT.181,"your friend $Creator invited you to chat with $var1",,
+EVENT.182,"your friend $Creator invited you to $var1 chat",,
+EVENT.183,"Chat list has changed",,
+EVENT.184,"$var1",,
+
+# Quest event
+EVENT.191,"your friend $Creator sent you an $var1 invitation $var2",,
+EVENT.192,"your friend $Creator requested you to respond to a $var1 questionnaire/survey/vote $var2",,
+EVENT.193,"your friend $Creator responded to the $var1 invitation $var2",,
+EVENT.194,"your friend $Creator completed the $var1 questionnaire/survey/vote $var2",,
+
+# Req event
+EVENT.201,"$Creator requests you to be a friend.",,
+EVENT.202,"$Creator has accepted your requests to be a friend.  You two are now friends.",,
+EVENT.203,"$Creator has rejected your connection request.",,
+EVENT.205,"$Creator requests your approval to join the $var1 Circle",,
+EVENT.206,"$Creator has accepted your request to join $var1.  You are now a member of the circle.",,
+EVENT.207,"$Creator has rejected your request to join $var1.",,
+EVENT.211,"$Creator would like to introduce and connect you to $var1.",,
+EVENT.212,"$Creator has accepted $var1's introduction and is now your friend.",,
+EVENT.215,"$Creator would like to recommend you to join the $var1 circle.",,
+
+# project event 500  $var1=projectID
+EVENT.501,"$Creator created project $var1",HIST.3101,
+EVENT.502,"$Creator deleted project $var1",HIST.3102,
+EVENT.503,"$Creator moved project $var1 to OPEN",HIST.3110,
+EVENT.504,"$Creator put project $var1 ON-HOLD",HIST.3111,
+EVENT.505,"$Creator CANCELED project $var1",HIST.3112,
+EVENT.506,"$Creator moved project $var1 to COMPLETE",HIST.3113,
+EVENT.507,"$Creator CLOSED project $var1",HIST.3114,
+EVENT.508,"Project $var1 has passed the deadline and is now LATE",HIST.3115,
+EVENT.509,"$Creator added $var1 to the project team of $var2",HIST.3116,
+EVENT.510,"$Creator moved project $var1 to re-OPEN",HIST.3117,
+
+# task event 550  $var1=projectID, $var2=taskID",,
+EVENT.551,"$Creator started task $var2 in project $var1",HIST.4101,
+EVENT.552,"All conditions are fulfilled, Automatically starts task $var2 in project $var1",HIST.4102,
+EVENT.553,"$Creator completed task $var2 in project $var1",HIST.4103,
+EVENT.554,"Task $var2 in project $var1 has been moved to LATE",HIST.4104,
+EVENT.555,"$Creator put task $var2 in project $var1 ON-HOLD",HIST.4105,
+EVENT.556,"$Creator CANCELED task $var2 in project $var1",HIST.4106,
+
+# attachment event 600  $var1=fileName,"$var2=projectName",,
+EVENT.601,"$Creator posted the file $var1 in project $var2",HIST.7101,
+EVENT.602,"$Creator deleted the file $var1 in project $var2",HIST.7102,
+EVENT.603,"$Creator opened the file $var1 in project $var2",HIST.7103,
+EVENT.604,"$Creator moved the file $var1 in project $var2",HIST.7104,
+EVENT.605,"$Creator created a link to the file $var1 in project $var2",HIST.7105,
+
+# bug event, $var1=bug synopsis, $var2=projectName,
+EVENT.701,"$Creator filed a new request $var1 in $var2",,
+EVENT.710,"$Creator resolved the request $var1 in $var2",,
