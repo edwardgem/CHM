@@ -1,0 +1,58 @@
+# pricing for CPM
+
+# pricing for levels of membership
+Price_1,19
+Price_2,49
+Price_3,99
+Price_4,1999
+
+Price_10G,9.95
+Price_1_User,20.00
+
+Price_1_Project,10.00
+
+# Headers,,,,
+Header,Enterprise,Workgroup,Team,Basic
+
+# Header description
+HeaderDesc,"<div class='top0'>US$<span class='top1'>1&#44;999</span><span class='top2'>/month</span></div>Enterprise solution scales up to thousands of users with thousands of concurrent projects across multiple companies.", "<div class='top0'>US$ <span class='top1'>99</span><span class='top2'>/month</span></div>Premium solution for corporations with multiple teams and projects.", "<div class='top0'>US$ <span class='top1'>49</span><span class='top2'>/month</span></div>Working with more than one team? Managing multiple projects? Choose the Team Plan to collaborate seamlessly today.", "<div class='top0'>US$<span class='top1'>19</span><span class='top2'>/month</span></div>Get started with a small team or with a few projects. Ideal for small companies&#44; consultants and small teams."
+
+# Categories
+Category,Basics
+Pricing,$PRICE_4/ mo., $PRICE_3/ user/ mo., $PRICE_2/ user/ mo., $PRICE_1/ mo.
+"# of user account",100+,50+,20,10
+Each additional user,$PRICE_1_USER/ mo.,$PRICE_1_USER/ mo.,,
+"# of free projects",Unlimited,50,15,5
+Each additional project,Free,$Price_1_Project,$Price_1_Project,$Price_1_Project
+Storage space, 200 GB, 20 GB, 5 GB, 1 GB
+
+#
+Category,Team Features
+Team Meeting, yes, yes, yes, yes
+To-do List,yes,yes,yes,yes
+File Sharing,yes,yes,yes,yes
+Project Collaboration,yes,yes,yes,yes
+Search Engine, yes, yes, yes, yes
+
+#
+Category,Collaboration Features
+Google Docs support,yes,yes,yes,yes
+Project workspace,yes,yes,yes,yes
+Mobile support,yes,yes,yes,yes
+Email notification,yes,yes,yes,
+Project teaming,yes,yes,yes,
+Team members from other companies,yes,,,
+
+#
+Category,Security
+SSL and RSA token,yes,yes,yes,yes
+Secured File sharing,yes,yes,yes,
+Role-based access control,yes,yes,,
+File classification,yes,,,
+
+#,,,,
+Category,"Administrative Support"
+"Set up your own company account and identify",yes,yes,,
+"24 x 7 Customer care support",yes,yes,,
+"Central administration to manage employee access",yes,,,
+"Centralize account management for multiple users",yes,,,

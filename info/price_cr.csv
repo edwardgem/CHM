@@ -1,0 +1,47 @@
+# pricing for CPM,
+
+# pricing for levels of membership,
+Price_Basic,0
+Price_Elite,9.95
+Price_Professional,19.95
+Price_Enterprise,199.95
+
+Price_10G,9.95
+Price_1_User,19.95
+
+# Headers
+Header,Standard,Elite,Professional,Enterprise
+
+# Categories
+Category,"Basic differences"
+Pricing,Free, $PRICE_ELITE/mo., $PRICE_PROFESSIONAL/mo., $PRICE_ENTERPRISE/mo.
+Storage space, 200 MB, 2 GB, 20 GB, 200 GB
+Extend storage space,,,$PRICE_10G/10 GB/mo., $PRICE_10G/10 GB/mo.
+"# of user account", 1, 1, 1, 10+
+Each additional user,,,,$PRICE_1_USER/mo. 
+"# of remote machines accessed", 2, 5, 10, 50
+
+#
+Category, Feature
+Search engine, yes, yes, yes, yes
+Knowledge portal, yes, yes, yes, yes
+Remote backup, yes, yes, yes, yes
+
+#
+Category,Collaboration
+"# of project workspace", 3, 3, Unlimited, Unlimited
+"Project-based file storage", yes, yes, yes, yes
+"Project team functions",,,yes,yes
+"Email notification on upload",,,,yes
+
+#
+Category,Security
+"Access control",,yes,yes,yes
+"File sharing",,yes,yes,yes
+"File classification",,,,yes
+
+#
+Category, "Administrative Support"
+"24 x 7 Customer care support",,,,yes
+"Central administration to manage employee access",,,,yes
+"Centralize billing for multiple users",,,,yes
